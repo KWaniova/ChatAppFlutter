@@ -4,11 +4,8 @@ class SplashScreen extends StatelessWidget {
   const SplashScreen({super.key});
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: const Text('Chat'),
-      ),
-      body: const Center(
+    return const Scaffold(
+      body: Center(
         child: Text('Loading'),
       ),
     );
